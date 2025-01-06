@@ -3,9 +3,9 @@ import {useEffect, useState} from 'react';
 import SearchIcon from './search.svg';
 import MovieCard from './MovieCard';
 
-// const API_URL = 'http://www.omdbapi.com?apikey=7ae9ab92';
+  const API_URL = 'process.env.REACT_APP_API_URL';
 
-const API_URL = 'http://www.omdbapi.com/?i=tt3896198&apikey=7ae9ab92';
+//const API_URL = 'https://www.omdbapi.com/?i=tt3896198&apikey=7ae9ab92';
 
 const App = () => {
 
